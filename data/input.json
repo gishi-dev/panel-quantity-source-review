@@ -1,0 +1,163 @@
+{
+  "sources": [
+    {
+      "page": 1,
+      "drawing": "D-00",
+      "revision": "R2",
+      "area": "東D",
+      "symbol": "PD",
+      "quantity": 8,
+      "original": "東D パネルPD 8枚",
+      "unit": "枚",
+      "note": "N4：D-40のPDと同一。追加ではない。",
+      "record": ""
+    },
+    {
+      "page": 2,
+      "drawing": "D-10",
+      "revision": "R2",
+      "area": "北A",
+      "symbol": "PA",
+      "quantity": 4,
+      "original": "北A パネルPA 4枚",
+      "unit": "枚",
+      "note": "N1：見積対象。別紙なし。",
+      "record": ""
+    },
+    {
+      "page": 3,
+      "drawing": "D-30",
+      "revision": "R2",
+      "area": "南B",
+      "symbol": "PB",
+      "quantity": 4,
+      "original": "南B パネルPB 4枚",
+      "unit": "枚",
+      "note": "N2：南Bのみ。北Bとの対応記載なし。",
+      "record": ""
+    },
+    {
+      "page": 4,
+      "drawing": "D-20",
+      "revision": "R2",
+      "area": "西C",
+      "symbol": "PC",
+      "quantity": 6,
+      "original": "西C パネルPC 6枚",
+      "unit": "枚",
+      "note": "N3：見積対象。別紙なし。",
+      "record": ""
+    },
+    {
+      "page": 5,
+      "drawing": "D-40",
+      "revision": "R2",
+      "area": "東D",
+      "symbol": "PD",
+      "quantity": 8,
+      "original": "東D パネルPD 8枚",
+      "unit": "枚",
+      "note": "N4：D-00のPDを再掲。追加ではない。",
+      "record": ""
+    },
+    {
+      "page": 6,
+      "drawing": "D-50",
+      "revision": "R2",
+      "area": "入口E",
+      "symbol": "PE",
+      "quantity": 2,
+      "original": "入口E パネルPE 2枚",
+      "unit": "枚",
+      "note": "N5：対象範囲は別紙A-9参照。",
+      "record": ""
+    },
+    {
+      "page": 7,
+      "drawing": "D-60",
+      "revision": "R2",
+      "area": "背面F",
+      "symbol": "PF",
+      "quantity": 3,
+      "original": "背面F パネルPF 3枚",
+      "unit": "枚",
+      "note": "N6：R2では注記を再確認すること。",
+      "record": ""
+    },
+    {
+      "page": 8,
+      "drawing": "D-60",
+      "revision": "R1",
+      "area": "背面F",
+      "symbol": "PF",
+      "quantity": 3,
+      "original": "背面F パネルPF 3枚",
+      "unit": "枚",
+      "note": "N6旧：R1の確認記録あり。R2の確認記録なし。",
+      "record": "R1"
+    }
+  ],
+  "requests": [
+    {
+      "id": "I01",
+      "area": "北A",
+      "quantity": 4,
+      "unit": "枚",
+      "revision": "R2",
+      "page": 2,
+      "drawing": "D-10",
+      "record": ""
+    },
+    {
+      "id": "I02",
+      "area": "北B",
+      "quantity": 4,
+      "unit": "枚",
+      "revision": "R2",
+      "page": 3,
+      "drawing": "D-30",
+      "record": ""
+    },
+    {
+      "id": "I03",
+      "area": "西C",
+      "quantity": 6,
+      "unit": "枚",
+      "revision": "R2",
+      "page": 3,
+      "drawing": "D-20",
+      "record": ""
+    },
+    {
+      "id": "I04",
+      "area": "東D",
+      "quantity": 8,
+      "unit": "枚",
+      "revision": "R2",
+      "page": 1,
+      "drawing": "D-00",
+      "record": ""
+    },
+    {
+      "id": "I05",
+      "area": "入口E",
+      "quantity": 2,
+      "unit": "枚",
+      "revision": "R2",
+      "page": 6,
+      "drawing": "D-50",
+      "record": ""
+    },
+    {
+      "id": "I06",
+      "area": "背面F",
+      "quantity": 3,
+      "unit": "枚",
+      "revision": "R2",
+      "page": 7,
+      "drawing": "D-60",
+      "record": "R1"
+    }
+  ],
+  "attachments": []
+}

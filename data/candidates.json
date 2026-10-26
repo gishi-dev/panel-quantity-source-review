@@ -1,0 +1,398 @@
+{
+  "values": [
+    {
+      "id": "I01",
+      "summary": "I01 北A・4枚",
+      "evidence": [],
+      "relation": "値のみ",
+      "missing": "",
+      "contact": "",
+      "question": "北A・4枚の記載値を確認してください。"
+    },
+    {
+      "id": "I02",
+      "summary": "I02 北B・4枚",
+      "evidence": [],
+      "relation": "値のみ",
+      "missing": "",
+      "contact": "",
+      "question": "北B・4枚の記載値を確認してください。"
+    },
+    {
+      "id": "I03",
+      "summary": "I03 西C・6枚",
+      "evidence": [],
+      "relation": "値のみ",
+      "missing": "",
+      "contact": "",
+      "question": "西C・6枚の記載値を確認してください。"
+    },
+    {
+      "id": "I04",
+      "summary": "I04 東D・8枚",
+      "evidence": [],
+      "relation": "値のみ",
+      "missing": "",
+      "contact": "",
+      "question": "東D・8枚の記載値を確認してください。"
+    },
+    {
+      "id": "I05",
+      "summary": "I05 入口E・2枚",
+      "evidence": [],
+      "relation": "値のみ",
+      "missing": "",
+      "contact": "",
+      "question": "入口E・2枚の記載値を確認してください。"
+    },
+    {
+      "id": "I06",
+      "summary": "I06 背面F・3枚",
+      "evidence": [],
+      "relation": "値のみ",
+      "missing": "",
+      "contact": "",
+      "question": "背面F・3枚の記載値を確認してください。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "I01",
+      "missing": "北Aの原文・単位の確認",
+      "contact": "見積担当",
+      "question": "R2 p2 D-10の北A パネルPA 4枚について、原文と単位を確認してください。",
+      "summary": "R2 p2 D-10の北A パネルPA 4枚と単位が対応しています。",
+      "evidence": [
+        {
+          "page": 2,
+          "drawing": "D-10",
+          "revision": "R2",
+          "area": "北A",
+          "symbol": "PA",
+          "quantity": 4,
+          "original": "北A パネルPA 4枚",
+          "unit": "枚",
+          "note": "N1：見積対象。別紙なし。",
+          "record": ""
+        }
+      ],
+      "relation": "対応あり"
+    },
+    {
+      "id": "I02",
+      "missing": "北Bの配置資料",
+      "contact": "資料提供担当",
+      "question": "R2 p3 D-30は南Bの記載です。北Bを示す配置資料をご提示ください。",
+      "summary": "依頼は北B 4枚ですが、R2 p3 D-30の原文は南B パネルPB 4枚です。N2に北Bとの対応記載がありません。",
+      "evidence": [
+        {
+          "page": 3,
+          "drawing": "D-30",
+          "revision": "R2",
+          "area": "南B",
+          "symbol": "PB",
+          "quantity": 4,
+          "original": "南B パネルPB 4枚",
+          "unit": "枚",
+          "note": "N2：南Bのみ。北Bとの対応記載なし。",
+          "record": ""
+        }
+      ],
+      "relation": "要確認"
+    },
+    {
+      "id": "I03",
+      "missing": "p3とD-20の参照対応の訂正資料",
+      "contact": "資料提供担当",
+      "question": "西Cの指定p3はD-30です。D-20・R2があるp4との参照対応を確認し、訂正資料をご提示ください。",
+      "summary": "指定p3はD-30・R2です。D-20・R2はp4にあり、依頼のページと図面番号が一致しません。",
+      "evidence": [
+        {
+          "page": 3,
+          "drawing": "D-30",
+          "revision": "R2",
+          "area": "南B",
+          "symbol": "PB",
+          "quantity": 4,
+          "original": "南B パネルPB 4枚",
+          "unit": "枚",
+          "note": "N2：南Bのみ。北Bとの対応記載なし。",
+          "record": ""
+        },
+        {
+          "page": 4,
+          "drawing": "D-20",
+          "revision": "R2",
+          "area": "西C",
+          "symbol": "PC",
+          "quantity": 6,
+          "original": "西C パネルPC 6枚",
+          "unit": "枚",
+          "note": "N3：見積対象。別紙なし。",
+          "record": ""
+        }
+      ],
+      "relation": "要確認"
+    },
+    {
+      "id": "I04",
+      "missing": "N4と同一PDの扱いの確認",
+      "contact": "見積担当",
+      "question": "p1とp5のN4を確認し、同一PDの8枚を一度だけ扱うことを確認してください。",
+      "summary": "p1 D-00とp5 D-40の東D パネルPD 8枚は、N4で同一の再掲と明記されています。",
+      "evidence": [
+        {
+          "page": 1,
+          "drawing": "D-00",
+          "revision": "R2",
+          "area": "東D",
+          "symbol": "PD",
+          "quantity": 8,
+          "original": "東D パネルPD 8枚",
+          "unit": "枚",
+          "note": "N4：D-40のPDと同一。追加ではない。",
+          "record": ""
+        },
+        {
+          "page": 5,
+          "drawing": "D-40",
+          "revision": "R2",
+          "area": "東D",
+          "symbol": "PD",
+          "quantity": 8,
+          "original": "東D パネルPD 8枚",
+          "unit": "枚",
+          "note": "N4：D-00のPDを再掲。追加ではない。",
+          "record": ""
+        }
+      ],
+      "relation": "対応あり"
+    },
+    {
+      "id": "I05",
+      "missing": "別紙A-9",
+      "contact": "資料提供担当",
+      "question": "入口Eの対象範囲を確認するため、N5が参照する別紙A-9をご提示ください。",
+      "summary": "R2 p6 D-50の入口E パネルPE 2枚は、N5で対象範囲を別紙A-9に委ねています。提供資料にA-9がありません。",
+      "evidence": [
+        {
+          "page": 6,
+          "drawing": "D-50",
+          "revision": "R2",
+          "area": "入口E",
+          "symbol": "PE",
+          "quantity": 2,
+          "original": "入口E パネルPE 2枚",
+          "unit": "枚",
+          "note": "N5：対象範囲は別紙A-9参照。",
+          "record": ""
+        }
+      ],
+      "relation": "要確認"
+    },
+    {
+      "id": "I06",
+      "missing": "R2の注記の確認記録",
+      "contact": "資料管理担当",
+      "question": "背面FはR1だけの確認記録です。R2 p7 D-60の注記を確認した記録をご提示ください。",
+      "summary": "R2 p7 D-60の背面F パネルPF 3枚には再確認の注記があります。p8の記録はR1のみで、R2の確認記録がありません。",
+      "evidence": [
+        {
+          "page": 7,
+          "drawing": "D-60",
+          "revision": "R2",
+          "area": "背面F",
+          "symbol": "PF",
+          "quantity": 3,
+          "original": "背面F パネルPF 3枚",
+          "unit": "枚",
+          "note": "N6：R2では注記を再確認すること。",
+          "record": ""
+        },
+        {
+          "page": 8,
+          "drawing": "D-60",
+          "revision": "R1",
+          "area": "背面F",
+          "symbol": "PF",
+          "quantity": 3,
+          "original": "背面F パネルPF 3枚",
+          "unit": "枚",
+          "note": "N6旧：R1の確認記録あり。R2の確認記録なし。",
+          "record": "R1"
+        }
+      ],
+      "relation": "要確認"
+    }
+  ],
+  "teaching": [
+    {
+      "id": "I01",
+      "missing": "北Aの原文・単位の確認",
+      "contact": "見積担当",
+      "question": "R2 p2 D-10の北A パネルPA 4枚について、原文と単位を確認してください。",
+      "summary": "北A PA 4枚。",
+      "evidence": [
+        {
+          "page": 2,
+          "drawing": "D-10",
+          "revision": "R2",
+          "area": "北A",
+          "symbol": "PA",
+          "quantity": 4,
+          "original": "北A パネルPA 4枚",
+          "unit": "枚",
+          "note": "N1：見積対象。別紙なし。",
+          "record": ""
+        }
+      ],
+      "relation": "引き渡し候補"
+    },
+    {
+      "id": "I02",
+      "missing": "なし",
+      "contact": "見積担当",
+      "question": "北B 4枚はR2 p3 D-30の4枚を根拠として見積に回してください。",
+      "summary": "南Bの4枚を北Bの根拠として対応付けました。",
+      "evidence": [
+        {
+          "page": 3,
+          "drawing": "D-30",
+          "revision": "R2",
+          "area": "南B",
+          "symbol": "PB",
+          "quantity": 4,
+          "original": "南B パネルPB 4枚",
+          "unit": "枚",
+          "note": "N2：南Bのみ。北Bとの対応記載なし。",
+          "record": ""
+        }
+      ],
+      "relation": "引き渡し候補"
+    },
+    {
+      "id": "I03",
+      "missing": "なし",
+      "contact": "見積担当",
+      "question": "西C 6枚はR2 p4 D-20を根拠として見積に回してください。",
+      "summary": "西CはR2 p4 D-20の6枚に対応付けました。",
+      "evidence": [
+        {
+          "page": 3,
+          "drawing": "D-30",
+          "revision": "R2",
+          "area": "南B",
+          "symbol": "PB",
+          "quantity": 4,
+          "original": "南B パネルPB 4枚",
+          "unit": "枚",
+          "note": "N2：南Bのみ。北Bとの対応記載なし。",
+          "record": ""
+        },
+        {
+          "page": 4,
+          "drawing": "D-20",
+          "revision": "R2",
+          "area": "西C",
+          "symbol": "PC",
+          "quantity": 6,
+          "original": "西C パネルPC 6枚",
+          "unit": "枚",
+          "note": "N3：見積対象。別紙なし。",
+          "record": ""
+        }
+      ],
+      "relation": "引き渡し候補"
+    },
+    {
+      "id": "I04",
+      "missing": "なし",
+      "contact": "見積担当",
+      "question": "東D 16枚（p1とp5の合計）を見積に回してください。",
+      "summary": "東Dはp1の8枚とp5の8枚で16枚です。",
+      "evidence": [
+        {
+          "page": 1,
+          "drawing": "D-00",
+          "revision": "R2",
+          "area": "東D",
+          "symbol": "PD",
+          "quantity": 8,
+          "original": "東D パネルPD 8枚",
+          "unit": "枚",
+          "note": "N4：D-40のPDと同一。追加ではない。",
+          "record": ""
+        },
+        {
+          "page": 5,
+          "drawing": "D-40",
+          "revision": "R2",
+          "area": "東D",
+          "symbol": "PD",
+          "quantity": 8,
+          "original": "東D パネルPD 8枚",
+          "unit": "枚",
+          "note": "N4：D-00のPDを再掲。追加ではない。",
+          "record": ""
+        }
+      ],
+      "relation": "引き渡し候補"
+    },
+    {
+      "id": "I05",
+      "missing": "なし",
+      "contact": "見積担当",
+      "question": "入口E 2枚は別紙なしとして見積に回してください。",
+      "summary": "入口Eは別紙なし、2枚です。",
+      "evidence": [
+        {
+          "page": 6,
+          "drawing": "D-50",
+          "revision": "R2",
+          "area": "入口E",
+          "symbol": "PE",
+          "quantity": 2,
+          "original": "入口E パネルPE 2枚",
+          "unit": "枚",
+          "note": "N5：対象範囲は別紙A-9参照。",
+          "record": ""
+        }
+      ],
+      "relation": "引き渡し候補"
+    },
+    {
+      "id": "I06",
+      "missing": "なし",
+      "contact": "見積担当",
+      "question": "背面F 3枚はR1の確認記録によりR2も確認済みとして見積に回してください。",
+      "summary": "背面FはR1の記録によりR2も確認済みです。",
+      "evidence": [
+        {
+          "page": 7,
+          "drawing": "D-60",
+          "revision": "R2",
+          "area": "背面F",
+          "symbol": "PF",
+          "quantity": 3,
+          "original": "背面F パネルPF 3枚",
+          "unit": "枚",
+          "note": "N6：R2では注記を再確認すること。",
+          "record": ""
+        },
+        {
+          "page": 8,
+          "drawing": "D-60",
+          "revision": "R1",
+          "area": "背面F",
+          "symbol": "PF",
+          "quantity": 3,
+          "original": "背面F パネルPF 3枚",
+          "unit": "枚",
+          "note": "N6旧：R1の確認記録あり。R2の確認記録なし。",
+          "record": "R1"
+        }
+      ],
+      "relation": "引き渡し候補"
+    }
+  ]
+}
